@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=stationID
+comment0.target=WeatherStation(java.lang.String)
+comment0.text=\r\n\ This\ constructor\ initializes\ the\ internal\ data\ for\ the\ weather\ station.\r\n\ \r\n\ @param\ stationID\ the\ ID\ of\ the\ weather\ station.\r\n
+comment1.params=
+comment1.target=java.lang.String\ getId()
+comment1.text=\r\n\ Getter\ method\ to\ get\ the\ station\ ID\r\n\ \r\n\ @return\ the\ weather\ station\ ID\ for\ this\ weather\ station.\r\n
+comment2.params=month\ rainfall
+comment2.target=void\ recordDailyRain(int,\ double)
+comment2.text=\r\n\ Record\ the\ information\ from\ one\ daily\ summary\ line\ in\ a\ data\ file\r\n\ Adds\ the\ rainfall\ to\ the\ month\ and\ increases\ the\ number\r\n\ of\ days\ recorded\ by\ 1\r\n\ \r\n\ @param\ month\ the\ month\ from\ 1-12\r\n\ @param\ rainfall\ the\ amount\ of\ rainfall\r\n
+comment3.params=month
+comment3.target=int\ getCountForMonth(int)
+comment3.text=\r\n\ Getter\ method\ that\ returns\ the\ number\ of\ daily\ rainfall\ values\ \r\n\ that\ have\ been\ recorded\ for\ the\ specified\ month.\r\n\ Will\ return\ zero\ when\ no\ values\ have\ been\ recorded\ for\ \r\n\ the\ specified\ month.\r\n\ \r\n\ @param\ month\ the\ month\ that\ the\ user\ is\ looking\ to\ get\ data\ from\r\n\ @return\ the\ number\ of\ daily\ rainfall\ values\ for\ that\ month\r\n
+comment4.params=month
+comment4.target=double\ getAvgForMonth(int)
+comment4.text=\r\n\ Getter\ method\ that\ returns\ the\ average\ daily\ rainfall\ for\ that\ \r\n\ specified\ month.\r\n\ \r\n\ This\ is\ the\ total\ rainfall\ across\ all\ reported\ \r\n\ daily\ values\ for\ that\ month,\ divided\ by\ the\ \r\n\ number\ of\ daily\ values\ that\ have\ been\ recorded\ for\ that\ month.\r\n\ Will\ return\ -1\ if\ no\ rainfall\ amounts\ have\ been\ \r\n\ recorded\ for\ the\ specified\ month.\r\n\ \r\n\ @param\ month\ the\ specified\ month\ to\ get\ the\ average\ rainfall\ for\r\n\ @return\ the\ average\ daily\ rainfall\ for\ the\ specified\ month\r\n
+comment5.params=
+comment5.target=int\ getLowestMonth()
+comment5.text=\r\n\ Getter\ method\ that\ returns\ the\ number\ of\ the\ month\ that\ had\ the\ lowest\ \r\n\ average\ rainfall\ recorded\ across\ all\ months\r\n\ \r\n\ If\ multiple\ months\ have\ the\ same\ lowest\ rainfall\ average,\ it\ will\ return\ \r\n\ the\ earliest\ one\ (the\ lowest\ month\ number).\ \r\n\ If\ no\ rainfall\ records\ have\ been\ entered\ for\ any\ month,\ it\ will\ \r\n\ return\ the\ earliest\ month\ as\ well\ (1).\r\n\ \r\n\ @return\ the\ number\ of\ the\ month\ indicating\ the\ month\ that\ had\ the\ lowest\ \r\n\ average\ rainfall\ recorded\ at\ this\ station.\r\n
+numComments=6

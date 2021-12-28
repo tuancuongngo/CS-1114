@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=RainfallAnalyzer()
+comment0.text=\r\n\ The\ default\ constructor\ creates\ a\ Scanner\ that\ reads\ from\ \r\n\ a\ website\ and\ calls\ the\ first\ constructor\ to\ perform\ the\ \r\n\ remainder\ of\ the\ initialization\r\n
+comment1.params=input
+comment1.target=RainfallAnalyzer(java.util.Scanner)
+comment1.text=\r\n\ Initializes\ the\ world\ and\ find\ the\ weather\ station\ \r\n\ with\ the\ lowest\ average\ monthly\ rainfall.\ a\r\n\ This\ WeatherStation\ is\ then\ added\ and\ displayed\r\n\ in\ the\ world\r\n\ \r\n\ @param\ input\ the\ Scanner\ object\ containing\ the\ data\ to\ \r\n\ analyze.\r\n
+comment2.params=
+comment2.target=WeatherBureau\ getBureau()
+comment2.text=\r\n\ This\ getter\ returns\ the\ weather\ bureau\ created\ inside\ this\ object\ \r\n\ to\ hold\ all\ the\ weather\ data.\r\n\ \r\n\ @return\ the\ weather\ bureau\ that\ holds\ all\ the\ weather\ data.\r\n
+comment3.params=
+comment3.target=sofia.graphics.TextShape\ getText()
+comment3.text=\r\n\ This\ getter\ returns\ the\ text\ shape\ created\ in\ the\ constructor\ to\ \r\n\ display\ the\ weather\ station\ information\ for\ the\ station\ with\ \r\n\ the\ lowest\ average\ rainfall.\r\n\ \r\n\ @return\ the\ textShape\ object\ that\ has\ information\ for\ the\ station\ \r\n\ with\ the\ lowest\ average\ rainfall.\r\n
+comment4.params=
+comment4.target=WeatherStation\ getStation()
+comment4.text=\r\n\ This\ getter\ returns\ the\ weather\ station\ with\ the\ lowest\ rainfall\ that\r\n\ is\ currently\ displayed\ \r\n\ \r\n\ @return\ the\ weatherStation\ calculated\ in\ the\ constructor.\r\n
+numComments=5

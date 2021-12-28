@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=CityTest()
+comment0.text=\r\n\ Creates\ a\ new\ CityTest\ test\ object.\r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment2.params=
+comment2.target=void\ testCity()
+comment2.text=\r\n\ Test\ the\ default\ City()\ constructor\r\n
+comment3.params=
+comment3.target=void\ testCity1()
+comment3.text=\r\n\ Test\ the\ City(int\ width,\ int\ height)\ constructor\r\n
+comment4.params=
+comment4.target=void\ testPopulate()
+comment4.text=\r\n\ Test\ the\ populate()\ method\ using\ the\ Random\r\n\ Number\ generator\r\n
+comment5.params=
+comment5.target=void\ testPopulate1()
+comment5.text=\r\n\ Test\ the\ populate()\ method\ when\ it\ is\r\n\ told\ to\ spawn\ 0\ moneys\ and\ elephants\r\n
+numComments=6

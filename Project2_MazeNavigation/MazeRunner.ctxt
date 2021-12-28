@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=MazeRunner()
+comment0.text=\r\n\ Creates\ a\ new\ MazeRunner\ object,\ giving\ it\ 15\ flowers.\r\n
+comment1.params=
+comment1.target=void\ myProgram()
+comment1.text=\r\n\ method\ that\ tells\ the\ MazeRUnner\ to\ complete\ the\ maze\r\n\ by\ clearing\ the\ island\ and\ returning\ to\ its\ finish\r\n\ position.\r\n
+comment2.params=
+comment2.target=void\ clearIsland()
+comment2.text=\r\n\ This\ method\ will\ make\ a\ MazeRunner\ navigate\ the\ island\r\n\ by\ sticking\ to\ one\ side\ of\ the\ wall\ and\ picking\ up\r\n\ flowers\ of\ disable\ any\ nets\ that\ it\ sees.\r\n
+comment3.params=
+comment3.target=void\ goToFinish()
+comment3.text=\r\n\ This\ method\ will\ make\ the\ Jeroo\ navigate\ around\ the\ island\r\n\ until\ it\ reaches\ its\ finishing\ position\ of\ (1,1)\r\n
+comment4.params=
+comment4.target=void\ findOrientation()
+comment4.text=\r\n\ Method\ that\ will\ orientate\ MazeRunner\ so\ that\ it\ faces\r\n\ the\ appropriate\ direction.\r\n
+comment5.params=
+comment5.target=void\ turn180()
+comment5.text=\r\n\ Make\ a\ MazeRunner\ turn\ around\ 180\ degrees\r\n\ so\ that\ it\ can\ get\ out\ of\ dead\ ends\ when\r\n\ it\ is\ surrounded\ by\ water.\r\n
+numComments=6

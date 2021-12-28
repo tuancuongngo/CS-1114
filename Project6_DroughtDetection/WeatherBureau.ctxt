@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=WeatherBureau()
+comment0.text=\r\n\ Creates\ a\ new\ WeatherBureau\ object.\r\n\ This\ default\ constructor\ initializes\ the\ internal\ data\ of\ the\ class.\r\n
+comment1.params=summary
+comment1.target=void\ recordDailySummary(java.lang.String)
+comment1.text=\r\n\ Takes\ a\ single\ string\ representing\ a\ single\ one-line\ daily\ weather\ \r\n\ summary\ for\ a\ day\ at\ one\ weather\ station\ and\ store\ it\ in\ the\r\n\ HashMap.\r\n\ \r\n\ @param\ summary\ daily\ weather\ summary\ for\ one\ day\ at\ one\ weather\ station\ \r\n
+comment2.params=input
+comment2.target=void\ recordDailySummaries(java.util.Scanner)
+comment2.text=\r\n\ Record\ all\ of\ the\ daily\ summaries\ from\ the\ input\ source.\r\n\ \r\n\ @param\ input\ represents\ an\ input\ data\ source,\ such\ as\ a\ file\ containing\ \r\n\ a\ series\ of\ daily\ summary\ records\ for\ one\ or\ more\ weather\ stations.\ \r\n
+comment3.params=identifier
+comment3.target=WeatherStation\ getStation(java.lang.String)
+comment3.text=\r\n\ Getter\ method\ that\ returns\ a\ corresponding\ weather\ station\r\n\ when\ given\ an\ identifier\r\n\ \r\n\ @param\ identifier\ the\ name\ of\ the\ weather\ station\r\n\ \r\n\ @return\ Return\ the\ weather\ station\ object\ for\ the\ \r\n\ given\ weather\ station\ ID.\ Or\ null,\ if\ the\ identifier\ \r\n\ doesn't\ match\ any\ weather\ station\ \r\n
+comment4.params=month
+comment4.target=WeatherStation\ lowestStation(int)
+comment4.text=\r\n\ Getter\ method\ that\ returns\ the\ weather\ station\ that\ has\ the\ \r\n\ lowest\ average\ rainfall\ for\ the\ specified\ month\ \r\n\ \r\n\ @param\ month\ the\ month\ to\ look\ in\ to\ find\ the\ station\r\n\ \r\n\ @return\ the\ weather\ station\ that\ has\ the\ lowest\ average\ rainfall\ \r\n\ for\ the\ specified\ month\ (or\ null,\ if\ the\ weather\ bureau\ hasn't\ recorded\ \r\n\ any\ rainfall\ daily\ summaries\ for\ any\ station\ in\ the\ specified\ month)\r\n
+comment5.params=
+comment5.target=WeatherStation\ lowestStation()
+comment5.text=\r\n\ Getter\ method\ that\ returns\ the\ weather\ station\ that\ has\ \r\n\ the\ lowest\ average\ rainfall\ recorded\ for\ any\ month\ \r\n\ (or\ null,\ if\ the\ weather\ bureau\ hasn't\ recorded\ any\ \r\n\ rainfall\ daily\ summaries\ for\ any\ station\ for\ any\ month).\r\n\ \r\n\ @return\ the\ weather\ that\ has\ the\ lowest\ average\ rainfall\ recorded.\r\n
+numComments=6

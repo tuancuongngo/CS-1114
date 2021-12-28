@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Steel()
+comment0.text=\r\n\ Creates\ a\ new\ Steel\ object.\r\n
+comment1.params=
+comment1.target=boolean\ isFalling()
+comment1.text=\r\n\ Override\ the\ method\ in\ the\ parent\ class\r\n\ Steel\ particles\ don't\ fall\ so\ this\ method\r\n\ will\ always\ return\ false\r\n\ \r\n\ @return\ it\ will\ return\ false\r\n
+comment2.params=
+comment2.target=boolean\ dodge()
+comment2.text=\r\n\ Override\ the\ method\ in\ the\ parent\ class\r\n\ Steel\ particles\ don't\ slide\ of\ flow\ so\ this\ method\r\n\ will\ always\ return\ false\r\n\ \r\n\ @return\ it\ will\ return\ false\r\n
+numComments=3

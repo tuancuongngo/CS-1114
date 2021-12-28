@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=City()
+comment0.text=\r\n\ Creates\ a\ new\ City\ object.\r\n\ Default\ is\ going\ to\ be\ a\ 5x5\ world\r\n\ with\ 30%\ elephants\ and\ 40%\ monkeys\r\n
+comment1.params=width\ height
+comment1.target=City(int,\ int)
+comment1.text=\r\n\ Creates\ a\ new\ City\ object\ with\ user\ defined\ \r\n\ height\ and\ width.\r\n\ \r\n\ @param\ width\ shows\ width\ of\ city\r\n\ @param\ height\ shows\ height\ of\ city\r\n
+comment2.params=percentElephant\ percentMonkey\ satisfaction
+comment2.target=void\ populate(double,\ double,\ double)
+comment2.text=\r\n\ Method\ that\ populates\ the\ city\ with\ elephants\ and\ monkeys.\r\n\ Method\ also\ determines\ the\ satisfaction\ threshold\r\n\ \r\n\ @param\ percentElephant\ shows\ %\ of\ elephants\ in\ the\ city\r\n\ @param\ percentMonkey\ shows\ %\ of\ monkeys\ in\ the\ city\r\n\ @param\ satisfaction\ shows\ the\ satisfaction\ threshold\r\n
+numComments=3

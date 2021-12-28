@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=color\ willDissolve\ density
+comment0.target=Fluid(sofia.graphics.Color,\ boolean,\ double)
+comment0.text=\r\n\ Creates\ a\ new\ Fluid\ object.\r\n\ \r\n\ @param\ color\ the\ object's\ color\r\n\ @param\ willDissolve\ object's\ dissolvability\r\n\ @param\ density\ the\ object's\ density\r\n
+comment1.params=
+comment1.target=boolean\ dodge()
+comment1.text=\r\n\ This\ method\ implements\ the\ alternative\ motions\ of\ sliding\r\n\ and\ flowing\ to\ another\ position\ under\ some\ circumstances\r\n\ \r\n\ @return\ A\ boolean\ value\ indicating\ whether\ or\ not\ the\ particle\ moved\r\n
+numComments=2

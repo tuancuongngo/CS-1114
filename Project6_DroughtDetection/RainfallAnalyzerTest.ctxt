@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=RainfallAnalyzerTest()
+comment0.text=\r\n\ Creates\ a\ new\ RainfallAnalyzerTest\ test\ object.\r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment2.params=
+comment2.target=void\ testRainfallAnalyzer1()
+comment2.text=\r\n\ Test\ the\ constructor\ where\ there\r\n\ is\ valid\ data\ entered\r\n
+comment3.params=
+comment3.target=void\ testRainfallAnalyzer2()
+comment3.text=\r\n\ Test\ the\ constructor\ where\ \r\n\ no\ data\ is\ entered\r\n
+numComments=4

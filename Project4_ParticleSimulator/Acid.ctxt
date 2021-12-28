@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Acid()
+comment0.text=\r\n\ Creates\ a\ new\ Acid\ object.\r\n
+comment1.params=x\ y
+comment1.target=void\ dissolveIfPossible(int,\ int)
+comment1.text=\r\n\ This\ method\ dissolves\ another\ particle\ \r\n\ at\ the\ specified\ location,\ if\ appropriate.\ \r\n\ \r\n\ @param\ x\ the\ x\ position\ to\ check\r\n\ @param\ y\ the\ y\ position\ to\ check\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ This\ method\ tells\ the\ acid\ to\ dissolve\ adjacent\ particles\r\n
+numComments=3

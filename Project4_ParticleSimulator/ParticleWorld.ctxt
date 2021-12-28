@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ParticleWorld()
+comment0.text=\r\n\ Creates\ a\ new\ world\ with\ the\ default\ layout.\r\n
+comment1.params=layout
+comment1.target=ParticleWorld(int)
+comment1.text=\r\n\ Creates\ a\ new\ world\ with\ a\ specific\ layout.\r\n\ @param\ layout\ A\ number\ 0-2\ specifying\ the\ layout\ to\ use.\r\n
+comment2.params=width\ height
+comment2.target=ParticleWorld(int,\ int)
+comment2.text=\r\n\ Creates\ a\ new,\ empty\ world\ with\ the\ specified\ dimensions.\r\n\ @param\ width\ \ The\ width\ of\ the\ new\ world.\r\n\ @param\ height\ The\ height\ of\ the\ new\ world.\r\n
+numComments=3

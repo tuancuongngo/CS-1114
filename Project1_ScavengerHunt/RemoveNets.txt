@@ -1,0 +1,43 @@
+/**
+     * FlowerPicker turn in a specified direction and remove 3 nets in a row ahead 
+     * @param turnDIrection     Determine direction the NetRemover is turning to
+     */
+    public void destroyNets(RelativeDirection turnDirection)
+    {
+        this.turn(turnDirection);
+        this.toss();
+        this.hop();
+        this.toss();
+        this.hop();
+        this.toss();
+        this.hop();
+    }
+    
+    
+    /**
+     * Depends on user input, remove a net located to the east or west, hop 
+     * 1 space north or south, remove another net, hop 1 space north or south again, 
+     * remove another net
+     * @param verticalDirection         Determine if Jeroo turns North or South
+     * @param horizontalDirection       Determine if Jeroo turns West or East
+     */
+    
+    public void removeNets(String verticalDirection, String horizontalDirection)
+    {
+        this.toss();
+        //this.turn();
+        
+    }
+
+
+
+TO PASTE IN mainPROGRAM
+//bob removes all the nets
+        bob.navigateIsland(AHEAD, 2);
+        bob.navigateIsland(LEFT, 2);
+        bob.destroyNets(LEFT);
+        bob.navigateIsland(RIGHT, 2);
+        bob.destroyNets(LEFT);
+        bob.navigateIsland(RIGHT, 1);
+        bob.navigateIsland(RIGHT, 5);
+        //bob.destroyNets(AHEAD);

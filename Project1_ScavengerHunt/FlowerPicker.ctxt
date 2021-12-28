@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=x\ y
+comment0.target=FlowerPicker(int,\ int)
+comment0.text=\r\n\ Creates\ a\ new\ FlowerPicker\ Jeroo\ facing\ East\ with\ no\ flowers.\r\n\ \r\n\ @param\ x\ \ \ \ \ \ \ \ \ The\ x-coordinate\ of\ the\ Jeroo's\ location.\r\n\ @param\ y\ \ \ \ \ \ \ \ \ The\ y-coordinate\ of\ the\ Jeroo's\ location.\r\n
+comment1.params=turnTo\ numberOfHops
+comment1.target=void\ navigateIsland(sofia.micro.jeroo.RelativeDirection,\ int)
+comment1.text=\r\n\ Turn\ in\ a\ specified\ direction\ and\ hop\ a\ number\ of\ spaces\ ahead.\r\n\ \r\n\ @precondition\ All\ the\ spaces\ the\ FlowerPicker\ will\ hop\ into\ are\ clear.\r\n\ @param\ turnTo\ Determine\ direction\ the\ FlowerPicker\ is\ turning\ to.\r\n\ @param\ numberOfHops\ Determine\ number\ of\ hops\ the\ FlowerPicker\ will\ take.\r\n
+comment2.params=turnTo\ numberOfHops
+comment2.target=void\ secureFlower(sofia.micro.jeroo.RelativeDirection,\ int)
+comment2.text=\r\n\ Turn\ in\ a\ specified\ direction,\ hop\ a\ number\ of\ spaces\ ahead\ then\ \r\n\ pick\ up\ a\ flower.\r\n\ \r\n\ @precondition\ All\ the\ spaces\ the\ FlowerPicker\ will\ hop\ into\ are\ clear.\r\n\ @precondition\ The\ final\ space\ that\ the\ FlowerPicker\ will\ hop\ into\ \r\n\ contains\ a\ flower.\r\n\ @param\ turnTo\ Determine\ direction\ the\ FlowerPicker\ is\ turning\ to.\r\n\ @param\ numberOfHops\ Determine\ number\ of\ hops\ the\ FlowerPicker\ will\ take\ \r\n\ to\ pick\ the\ flower.\r\n
+comment3.params=
+comment3.target=void\ spinAround()
+comment3.text=\r\n\ FlowerPicker\ turn\ around\ 180\ degrees.\r\n
+numComments=4
